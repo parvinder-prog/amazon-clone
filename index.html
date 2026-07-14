@@ -1,0 +1,535 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="icon" type="image/x-icon" href="./favicon.ico">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div class="navbar" id="first">
+            <div class="nav-logo border-logo">
+                <img src="images/amazon_logo-removebg-preview.png" alt="amazon_logo">
+            </div>
+
+            <div class="nav-address border" id="location">
+                <p class="add-first">Delivering to Ludhiana 141001</p>
+                <div class="add-icon">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <p class="add-second">Update location</p>
+                </div>
+            </div>
+
+            <div class="nav-search">
+                <div class="dropdown">
+                    <button class="dropdown-button tablet" id="invisible">All
+                        <img src="images/caret-down.png" alt="dropdown-menu-img">
+                    </button>
+
+                    <div class="dropdown-content">
+                        <ul>
+                            <li>Alexa Skills</li>
+                            <li>Amazon Devices</li>
+                            <li>Amazon Fashion</li>
+                            <li>Amazon Fresh</li>
+                            <li>Amazon Pharmacy</li>
+                            <li>Appliances</li>
+                            <li>Apps & Games</li>
+                            <li>Beauty</li>
+                            <li>Deals</li>
+                            <li>Furniture</li>
+                            <li>Car & Accessories</li>
+                            <li>Electronics</li>
+                            <li>Books</li>
+                            <li>Prime Videos</li>
+                            <li>Watches</li>
+                            <li>Video Games</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <input placeholder="Search Amazon" class="search-input">
+                <div class="search-icon">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+            </div>
+
+            <div class="nav-signin border">
+                <p class="hello" id="invisible">Hello, </p> <span> sign in</span>
+                <p class="nav-second tablet" id="invisible">Account & Lists</p>
+            </div>
+
+            <div class="hover-account-content" id="popup">
+                <div class="btn-customer">
+                    <button>Sign in</button>
+                    <p>New customer? <a href="#">Start here.</a></p>
+                </div>
+
+                <div class="lists-accounts invisible">
+                    <div class="list">
+                        <h3>Your lists</h3>
+                        <p>Create a Wish List</p>
+                        <p>Wish from Any Website</p>
+                        <p> Discover Your Style</p>
+                        <p>Explore Showroom</p>
+                    </div>
+
+                    <div class="account">
+                        <h3>Your Account</h3>
+                        <p>Your Account</p>
+                        <p>Your Orders</p>
+                        <p>Your Wish List</p>
+                        <p>Your Recomendations</p>
+                        <p>Your Prime Membership</p>
+                        <p>Your Prime Video</p>
+                        <p>Your Subscribe & Save Items</p>
+                        <p>Your Seller Account</p>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="nav-signin border" id="invisible">
+                <p><span class="tablet">Returns</span></p>
+                <p class="nav-second tablet">& Orders</p>
+            </div>
+
+            <div class="nav-cart border">
+                <i class="fa-solid fa-cart-shopping"></i>
+                <p id="invisible"> Cart</p>
+            </div>
+        </div>
+
+        <!-- -----------------second portion------------- -->
+        <div class="panel">
+            <div class="panel-all border">
+                <i class="fa-solid fa-bars" id="invisible"></i>
+                All
+            </div>
+            <div class="panel-ops">
+                <p class="border">Today's Deals</p>
+                <p class="border" id="invisible">Customer Services</p>
+                <p class="border">Category</p>
+                <p class="border">Sell</p>
+                <p class="border" id="invisible">Home and Kitchen</p>
+                <p class="border" id="invisible">Fashion</p>
+                <p class="border" id="invisible">Books</p>
+            </div>
+            <div class="panel-deals border" id="invisible">
+                Shop deals in Electronics
+            </div>
+        </div>
+    </header>
+
+    <!-- -------------------------------header portion-------------------------------- -->
+
+    <div class="header-slider">
+        <a id="arrow" href="#" class="control_prev">&#8592</a>
+        <a id="arrow" href="#" class="control_next">&#8594</a>
+        <ul>
+            <img src="images/hero_section.jpg" class="header-img" alt="img1">
+            <img src="images/header-slider2.jpg" class="header-img" alt="img2">
+            <img src="images/header-slider3.jpg" class="header-img" alt="img3">
+            <img src="images/grocerroies.jpg" class="header-img" alt="img4">
+            <img src="images/header-slider5.jpg" class="header-img" alt="img5">
+            <img src="images/header-slider6.jpg" class="header-img" alt="img6">
+        </ul>
+        <div class="hero-msg">
+            You are on amazon.com. You can also shop on Amazon India for millions of products with fast local delivery.
+            <a href="https://www.amazon.in/">Click here to go to amazon.in</a>
+        </div>
+    </div>
+
+    <!-- -----------------------box1--------------------- -->
+
+    <div class="shop-section">
+        <div class="box1 box">
+            <div class="box-content">
+                <h2>Health & Personal Care</h2>
+                <div class="box-img" style="background-image: url('images/health.jpg');"></div>
+                <a id="see-more-text"
+                    href="https://www.amazon.com/Aveeno-Moisturizing-Soothing-Emollients-Fragrance-Free/dp/B08Q1J3V2T/ref=sr_1_2_sspa?crid=1SSZ3DCQA249K&dib=eyJ2IjoiMSJ9.gNgZ86R0ybcOTg6KfUe_X0EfQtwf9fCBAWhyn92dLXx03c5FLpdj95EoSuoVl1BDdyd8HnAP5c5WNHjscMgL9apRraLF85x7N8gkegikiNxcud6nadSBhxzNskWo-jw8vQZl6VrT8E5rq7-E5oog-RN9f5o6xfziu1_eINvq-BK7HgFZtusLOYtj68VW66O0b3ZYZKzpdvw61-gD_vTLSvDCGFwKXvSa3mMU4JpJVRFLcqJ3fg3XFYcot9F-WwwR7NmVkHYt0YkjacYemVCLBEwae42kQ_jt2qhvNmPz9sU.2fAwBcMII3zAPmSFmzAryo0ts_nJTCgUbiVSonnAiAQ&dib_tag=se&keywords=health+and+personal+care+lotions&qid=1727000241&sprefix=health+and+personal+care+lotion%2Caps%2C350&sr=8-2-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1">See
+                    more</a>
+            </div>
+        </div>
+
+        <!-- ----------------box2----------------------- -->
+
+        <div class="box2 box">
+            <div class="box-content">
+                <h2>Best for Shoes</h2>
+                <div class="box-img" style="background-image: url('images/shoes-for-amazon.png');"></div>
+                <a id="see-more-text"
+                    href="https://www.amazon.com/s?k=best+girl+shoes&crid=1HBU6G5JX64F&sprefix=best+girl+shoe%2Caps%2C355&ref=nb_sb_noss_2">See
+                    more</a>
+            </div>
+        </div>
+
+        <!-- --------------------box3--------------------- -->
+
+        <div class="box3 box">
+            <div class="box-content">
+                <h2>Kitchen</h2>
+                <div class="box-img" style="background-image: url('images/box3_new.webp');"></div>
+                <a id="see-more-text"
+                    href="https://www.amazon.com/s?k=kitchen+crockery&crid=6ZSDZ76SZ78C&sprefix=kitchen+crockery%2Caps%2C354&ref=nb_sb_noss_1">See
+                    more</a>
+            </div>
+        </div>
+
+        <!-- ------------------------------box4----------------------- -->
+
+        <div class="box4 box">
+            <div class="box-content">
+                <h2>Toys under $25</h2>
+                <div class="box-img" style="background-image: url('images/box4.jpg');"></div>
+                <a id="see-more-text"
+                    href="https://www.amazon.com/s?k=toys+best&crid=1BN140N53ZKYE&sprefix=toys+best+%2Caps%2C384&ref=nb_sb_noss_2">See
+                    more</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- -----------------------------------------------------product-scroller section------------------------------------------- -->
+
+    <div class="product-scroller">
+        <div class="product-text">
+            <h2>Trendy home decor</h2>
+            <a
+                href="https://www.amazon.in/CentraLit-Crystal-Tealight-Centerpieces-Decoration/dp/B0BYQ8T4YD/?_encoding=UTF8&pd_rd_w=XTXC5&content-id=amzn1.sym.e8531dbd-bba2-4195-85f1-c2bcfebc1303%3Aamzn1.symc.9b8fba90-e74e-4690-b98f-edc36fe735a6&pf_rd_p=e8531dbd-bba2-4195-85f1-c2bcfebc1303&pf_rd_r=BRJH3MSB8CX99H46GVZJ&pd_rd_wg=xCHcU&pd_rd_r=78d1ec10-2cf2-49c3-b106-4b8a86c60f00&ref_=pd_hp_d_btf_ci_mcx_mr_ca_id_hp_d&th=1">See
+                all offers</a>
+        </div>
+        <div class="products-imgs">
+            <img src="images/trendy home decor img.jpg" alt="product-scroller-img1">
+            <img src="images/product-scroller-img2.jpg" alt="product-scroller-img2">
+            <img src="images/product-scroller-img3.jpg" alt="product-scroller-img3">
+            <img src="images/product-scroller-img4.jpg" alt="product-scroller-img4">
+            <img src="images/product-scroller-img5.jpg" alt="product-scroller-img5">
+            <img src="images/product-scroller-img6.jpg" alt="product-scroller-img6">
+            <img src="images/product-scroller-img7.jpg" alt="product-scroller-img7">
+            <img src="images/product-scroller-img8.jpg" alt="product-scroller-img8">
+            <img src="images/product-scroller-img9.jpg" alt="product-scroller-img9">
+            <img src="images/product-scroller-img10.jpg" alt="product-scroller-img10">
+            <img src="images/product-scroller-img11.jpg" alt="product-scroller-img11">
+            <img src="images/product-scroller-img12.jpg" alt="product-scroller-img12">
+        </div>
+    </div>
+
+    <!-- ---------------------------box5---------------------------- -->
+    <div class="shop-section1">
+        <div class="box5 box">
+            <div class="box-content">
+                <h2>Jewellery</h2>
+                <div class="box-img" style="background-image: url('images/box5.webp');"></div>
+                <a id="see-more-text"
+                    href="https://www.amazon.com/s?k=jewellery&crid=1FRI1IHV0OBH7&sprefix=jewellery%2Caps%2C413&ref=nb_sb_noss_1">See
+                    all offers</a>
+            </div>
+        </div>
+        <!-- ------------------------------box6--------------------------- -->
+
+        <div class="box6 box">
+            <div class="box-content">
+                <h2>Best Sellers in Clothing</h2>
+                <div class="box-img" style="background-image: url('images/box6.jpg');"></div>
+                <a id="see-more-text"
+                    href="https://www.amazon.com/s?k=clothing&crid=JQTO71EUWMRJ&sprefix=clothing+%2Caps%2C384&ref=nb_sb_noss_2">See
+                    all offers</a>
+            </div>
+        </div>
+        <!-- --------------------------box7--------------------------------- -->
+        <div class="box7 box">
+            <div class="box-content">
+                <h2> Most-loved watches </h2>
+                <div class="box-img" style="background-image: url('images/box7.webp');"></div>
+                <a id="see-more-text"
+                    href="https://www.amazon.com/s?k=watches+girls+stylish&crid=11DQIE4T3A359&sprefix=watches+girls+stylish%2Caps%2C457&ref=nb_sb_noss">See
+                    all offers</a>
+            </div>
+        </div>
+        <!-- ---------------------------------box8----------------------------------- -->
+        <div class="box8 box">
+            <div class="box-content">
+                <h3>Customers most loved products</h3>
+                <div class="box-img" style="background-image: url('images/customers-most-loved-products-img.png');"></div>
+                <a id="see-more-text"
+                    href="https://www.amazon.in/s?k=decor&crid=3DCO80UH9D8ES&sprefix=decor%2Caps%2C335&ref=nb_sb_noss_1">See
+                    all offers</a>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- -----------------------------------------------beauty-product-scroller--------------------------------------- -->
+
+    <div class="beauty-product-scroller">
+        <div class="beauty-product-text">
+            <h2>Up to 50% off | Beauty and personal care from Emerging businesses</h2>
+            <a
+                href="https://www.amazon.in/s?k=beauty+products+for+girls+like+hair+bow%2C+hairbands%2C+lotions+etc.&crid=3N45D1X1SHKKG&sprefix=beauty+products+for+girls+like+hair+bow%2C+hairbands%2C+lotions+etc.%2Caps%2C280&ref=nb_sb_noss">See
+                all offers</a>
+        </div>
+        <div class="beauty-products-imgs">
+            <img src="images/beauty-images1.jpg" alt="beauty-product-scroller-img1">
+            <img src="images/beauty-images2.jpg" alt="beauty-product-scroller-img2">
+            <img src="images/beauty-images3.jpg" alt="beauty-product-scroller-img3">
+            <img src="images/beauty-images4.jpg" alt="beauty-product-scroller-img4">
+            <img src="images/beauty-images5.jpg" alt="beauty-product-scroller-img5">
+            <img src="images/beauty-images6.jpg" alt="beauty-product-scroller-img6">
+            <img src="images/beauty-images7.jpg" alt="beauty-product-scroller-img7">
+            <img src="images/hair-bow-img.jpg" alt="beauty-product-scroller-img8">
+            <img src="images/product-scroller-img9-new.jpg" alt="beauty-product-scroller-img9">
+
+        </div>
+    </div>
+    <!-- -------------------------------------box 9------------------------------------------ -->
+
+    <div class="shop-section2">
+        <div class="box8 box">
+            <div class="box-content">
+                <h2> Starting ₹99 | Start your fitness journey</h2>
+                <div class="box-img" style="background-image: url('images/shop-section2-img.jpg');"></div>
+                <a id="see-more-text"
+                    href="https://www.amazon.in/s?k=gym&crid=1WXCNVOA20CUA&sprefix=gym%2Caps%2C303&ref=nb_sb_noss_2">Explore
+                    all</a>
+            </div>
+        </div>
+
+        <!-- -------------------------------------box 10------------------------------------------ -->
+
+        <div class="box8 box">
+            <div class="box-content">
+                <h2>Party dresses from Small Businesses</h2>
+                <div class="box-img" style="background-image: url('images/shop-section2-img1.jpg');"></div>
+                <a id="see-more-text"
+                    href="https://www.amazon.in/s?k=party+dresses&crid=29KT2ZLGH67XB&sprefix=party+dresses%2Caps%2C299&ref=nb_sb_noss_1">Explore
+                    all</a>
+            </div>
+        </div>
+
+        <!-- -------------------------------------box 11------------------------------------------ -->
+
+        <div class="box8 box">
+            <div class="box-content">
+                <h2>Under ₹499 | Pocket-friendly fashion</h2>
+                <div class="box-img" style="background-image: url('images/shop-section2-img2.png');"></div>
+                <a id="see-more-text"
+                    href="https://www.amazon.in/s?k=pocket+friendly+fashion&crid=1T5B1QB2T7ND1&sprefix=pocket+friendly+fashion%2Caps%2C283&ref=nb_sb_noss">Explore
+                    all</a>
+            </div>
+        </div>
+
+        <!-- -------------------------------------box 12------------------------------------------ -->
+
+        <div class="box8 box">
+            <div class="box-content">
+                <h2>Revamp your home in style</h2>
+                <div class="box-img" style="background-image: url('images/shop-section3.png');"></div>
+                <a id="see-more-text"
+                    href="https://www.amazon.in/b/?_encoding=UTF8&node=12414705031&pd_rd_w=nJyiQ&content-id=amzn1.sym.f8e82c51-0408-4554-a158-9be4d776850d&pf_rd_p=f8e82c51-0408-4554-a158-9be4d776850d&pf_rd_r=JQTY1MFBTP0E7460TG4T&pd_rd_wg=bm2ck&pd_rd_r=951fe677-9877-4464-a75d-5b7f8eda30a0&ref_=pd_hp_d_atf_unk">Explore
+                    all</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- ------------------------------------------------------------------unique products scroller---------------------------------------------- -->
+
+
+    <div class="unique-products-scroller">
+        <div class="unique-product-text">
+            <h2>Up to 50% off | Unique products from stores nearby</h2>
+            <a
+                href="https://www.amazon.in/s?k=home+decoration&crid=2H5RN7OELY31V&sprefix=home+decoration%2Caps%2C313&ref=nb_sb_noss_2">See
+                all offers</a>
+        </div>
+        <div class="unique-products-imgs">
+            <img src="images/unique-products-scroller-img1.jpg" alt="unique-products-scroller-img1">
+            <img src="images/unique-products-scroller-img2.jpg" alt="unique-products-scroller-img2">
+            <img src="images/unique-products-scroller-img3.jpg" alt="punique-products-scroller-img3">
+            <img src="images/unique-products-scroller-img4.jpg" alt="unique-products-scroller-img4">
+            <img src="images/unique-products-scroller-img5.jpg" alt="unique-products-scroller-img5">
+            <img src="images/unique-products-scroller-img6.jpg" alt="unique-products-scroller-img6">
+            <img src="images/unique-products-scroller-img7.jpg" alt="unique-products-scroller-img7">
+            <img src="images/unique-products-scroller-img8.jpg" alt="unique-products-scroller-img8">
+            <img src="images/unique-products-scroller-img9.jpg" alt="unique-products-scroller-img9">
+        </div>
+    </div>
+
+    <!------------------------------------------footer---------------------------------------------------- -->
+
+    <footer>
+        <div class="foot-panel1">
+            <a href="#first">Back to Top</a>
+            <img src="images/arrowhead-up.png" alt="top-icon-img">
+        </div>
+        <div class="footer-1">
+            <div class="foot-panel2">
+                <ul>
+                    <p>Get to know <br> Us</p>
+                    <a href="https://www.aboutamazon.in/?utm_source=gateway&utm_medium=footer">About Amazon</a>
+                    <a href="https://amazon.jobs/en/">Careers</a>
+                    <a href="https://press.aboutamazon.com/in/press-release-archive">Press Releases</a>
+                    <a href="https://www.amazon.science/">Amazon Science</a>
+                </ul>
+
+                <ul id="invisible">
+                    <p>Make Money with us </p>
+                    <a
+                        href="https://www.amazon.in/b/?node=2838698031&ld=AZINSOANavDesktopFooter_C&ref_=nav_footer_sell_C">Sell
+                        on Amazon <br>Accelerator</a>
+                    <a href="https://sell.amazon.in/brand-registry">Protection and built Your brand </a>
+                    <a
+                        href="https://sell.amazon.in/grow-your-business/amazon-global-selling?ld=AZIN_Footer_V1&ref=AZIN_Footer_V1">Amazon
+                        Global Selling</a>
+                    <a href="https://supply.amazon.com/?ref_=footer_sta&lang=en-IN">Supply to Amazon</a>
+                    <a
+                        href="https://affiliate-program.amazon.in/?utm_campaign=assocshowcase&utm_medium=footer&utm_source=GW&ref_=footer_assoc">Become
+                        an Affiliate</a>
+                    <a href="https://sell.amazon.in/?ref_=asin_soa_rd&ld=AWRGINFBAfooter">Fulfilment by Amazon</a>
+                    <a href="https://advertising.amazon.com/en-gb?ref=Amz.in">Advertise Your Products</a>
+                    <a href="https://www.amazon.in/amazonpay/home">Amazon Pay on Merchants</a>
+                </ul>
+
+                <ul>
+                    <p>Connect with <br>Us</p>
+                    <a
+                        href="https://www.amazon.in/gp/redirect.html/ref=footer_fb?location=http://www.facebook.com/AmazonIN&token=2075D5EAC7BB214089728E2183FD391706D41E94&6">Facebook</a>
+                    <a
+                        href="https://www.amazon.in/gp/redirect.html/ref=footer_twitter?location=http://twitter.com/AmazonIN&token=A309DFBFCB1E37A808FF531934855DC817F130B6&6">Twitter</a>
+                    <a
+                        href="https://www.amazon.in/gp/redirect.html?location=https://www.instagram.com/amazondotin&token=264882C912E9D005CB1D9B61F12E125D5DF9BFC7&source=standards">Instagram</a>
+                </ul>
+
+                <ul>
+                    <p>Let Us Help You</p>
+                    <a
+                        href="https://www.amazon.in/ap/signin?openid.pape.max_auth_age=3600&openid.return_to=https%3A%2F%2Fwww.amazon.in%2Fspr%2Freturns%2Fhomepage%2Fhomepage.html%3Fref_%3Dfooter_hy_f_4&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=amzn_psr_desktop_in&openid.mode=checkid_setup&language=en_IN&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0">Return
+                        Centre</a>
+                    <a href="https://www.amazon.in/gp/css/homepage.html?ref_=footer_ya">Your Account</a>
+                    <a
+                        href="https://www.amazon.in/ap/signin?openid.pape.max_auth_age=3600&openid.return_to=https%3A%2F%2Famazon.in%2Fyour-product-safety-alerts%3Fref_%3Dfooter_bsx_ypsa&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=amzn_yourrecalls_in&openid.mode=checkid_setup&language=en_IN&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0">Recalls
+                        and Products Safety <br> Alerts</a>
+                    <a href="https://www.amazon.in/gp/help/customer/display.html?nodeId=201083470&ref_=footer_swc">100%
+                        Purchase Protection</a>
+                    <a href="https://www.amazon.in/gp/browse.html?node=6967393031&ref_=footer_mobapp">Amazon App
+                        Download</a>
+                    <a
+                        href="https://www.amazon.in/gp/help/customer/display.html?nodeId=200507590&ref_=footer_gw_m_b_he">Help</a>
+                </ul>
+            </div>
+        </div>
+        <div class="foot-panel3">
+            <div class="logo1">
+            </div>
+            <div class="buttons">
+                <select id="dropdown" name="options">
+                    <option value="English-EN">English</option>
+                    <option value="Deutsch-DE">Deutsch-D</option>
+                    <option value="espan~ol-ES">espan~ol-ES</option>
+                    <option value="portugue^s-PT">portugue^s-PT</option>
+                </select>
+            </div>
+
+
+            <div class="btn2">
+                <a
+                    href="https://www.amazon.com/customer-preferences/edit?ie=UTF8&ref_=footer_cop&preferencesReturnUrl=%2F">$
+                    USD-U.S. Dollar</a>
+            </div>
+            <div class="btn3">
+                <button class="last-btn">
+                    <img src="images/flag.jpeg" alt="flag" id="flag">
+                    United States
+                </button>
+            </div>
+        </div>
+        <div class="foot-panel4">
+            <div class="footer-container1">
+
+                <div class="column">
+                    <a href="#">
+                        <strong>AbeBooks</strong>
+                        Books, art & collectibles
+                    </a>
+                </div>
+
+                <div class="column">
+                    <a href="#">
+                        <strong>AbeBooks</strong>
+                        Books, art & collectibles
+                    </a>
+                </div>
+
+                <div class="column">
+                    <a href="#">
+                        <strong>Amazon Web Services</strong>
+                        Scalable Cloud Computing Services
+                    </a>
+                </div>
+
+                <div class="column">
+                    <a href="#">
+                        <strong>Audible</strong>
+                        Download Audio Books
+                    </a>
+                </div>
+
+            </div>
+
+            <!-- ----------------------------------------footer container2----------------------------------------------- -->
+
+            <div class="footer-container2">
+                <div class="column">
+                    <a href="#">
+                        <strong>Shopbop</strong>
+                        Designer Fashion Brands
+                    </a>
+                </div>
+
+                <div class="column">
+                    <a href="#">
+                        <strong>Prime Now</strong>
+                        2- Hour Delivery on Everyday Items
+                    </a>
+                </div>
+
+                <div class="column">
+                    <a href="#">
+                        <strong>IMDb</strong>
+                        Movies, TV & Celebrities
+                    </a>
+                </div>
+
+                <div class="column">
+                    <a href="#">
+                        <strong>Amazon Prime Music</strong>
+                        100 million songs, ad-free<br>
+                        Over 15 million podcasts episodes
+                    </a>
+                </div>
+
+            </div>
+
+            <div class="pages">
+                <a>Conditions of Use & Sales</a>
+                <a>Privacy Notice</a>
+                <a>Interest - Based Ads</a>
+            </div>
+            <div class="copyright">
+                © 1996-2024, Amazon.com, Inc. or its affiliates
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
